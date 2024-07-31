@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body><div class="maindiv">
+    <div class="calculator">
+        <h1 id="title">Calculator</h1>
+        <input id="display" type="text">
+        <div class="button">
+            <button onclick="screenclear()"id="button">c</button>
+            <div class="buttonsec">
+                <button onclick="screen(7)" id="button">7</button>
+                <button onclick="screen(8)" id="button">8</button>
+                <button onclick="screen(9)" id="button">9</button>
+                <button onclick="screen('/')" id="button">/</button>
+
+            </div>
+            <div class="buttonsec">
+                <button onclick="screen(4)" id="button">4</button>
+                <button onclick="screen(5)" id="button">5</button>
+                <button onclick="screen(6)" id="button">6</button>
+                <button onclick="screen('*')" id="button">*</button>
+
+            </div>
+            <div class="buttonsec">
+                <button onclick="screen(1)" id="button">1</button>
+                <button onclick="screen(2)" id="button">2</button>
+                <button onclick="screen(3)" id="button">3</button>
+                <button onclick="screen('-')" id="button">-</button>
+
+            </div>
+            <div class="buttonsec">
+                <button onclick="screen('.')" id="button">.</button>
+                <button onclick="screen(0)" id="button">0</button>
+                <button onclick="screen('+')" id="button">+</button>
+                <button onclick="result()" id="button" style="background-color: rgb(95, 95, 233);">=</button>
+
+            </div>
+
+        </div>
+
+    </div>
+</div></body>
+<script src="script.js">
+
+</script>
+
+</html>

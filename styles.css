@@ -1,0 +1,32 @@
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.calculator{
+    background-color: black;
+    width: 248px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8PX;
+}
+#title{
+    color: white;
+}
+
+#display{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px; 
+    font-size: 20px;
+}
+#button{
+    width: 50px;
+    height: 50px;
+    border: black;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 4px;
+}
